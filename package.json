@@ -1,0 +1,51 @@
+{
+	"name": "bibliograph-storage-meadow",
+	"version": "0.0.1",
+	"description": "Bibliograph storage provider backed by Meadow DAL. Supports SQLite, PostgreSQL, MySQL, MSSQL, and other Meadow providers.",
+	"main": "source/Bibliograph-Storage-Meadow.js",
+	"scripts": {
+		"start": "node source/Bibliograph-Storage-Meadow.js",
+		"test": "npx mocha -u tdd -R spec --exit",
+		"tests": "npx mocha -u tdd --exit -R spec --grep",
+		"coverage": "npx nyc --reporter=lcov --reporter=text-lcov npx mocha -- -u tdd -R spec"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenvelozo/bibliograph-storage-meadow.git"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/stevenvelozo/bibliograph-storage-meadow/issues"
+	},
+	"homepage": "https://github.com/stevenvelozo/bibliograph-storage-meadow#readme",
+	"devDependencies": {
+		"chai": "^4.3.0",
+		"mocha": "^10.0.0",
+		"quackage": "^1.0.51"
+	},
+	"mocha": {
+		"diff": true,
+		"extension": [
+			"js"
+		],
+		"package": "./package.json",
+		"reporter": "spec",
+		"slow": "75",
+		"timeout": "10000",
+		"ui": "tdd",
+		"watch-files": [
+			"source/**/*.js",
+			"test/**/*.js"
+		],
+		"watch-ignore": [
+			"lib/vendor"
+		]
+	},
+	"dependencies": {
+		"bibliograph": "file:../bibliograph",
+		"meadow": "file:../meadow",
+		"meadow-connection-sqlite": "file:../meadow-connection-sqlite",
+		"pict": "^1.0.347"
+	}
+}

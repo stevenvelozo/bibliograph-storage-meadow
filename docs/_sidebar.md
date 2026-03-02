@@ -1,0 +1,37 @@
+- **Getting Started**
+  - [Overview](README.md)
+  - [Quickstart](quickstart.md)
+
+- **Concepts**
+  - [Architecture](architecture.md)
+  - [Database Schema](schema.md)
+
+- **API Reference**
+  - [Full Reference](api/reference.md)
+  - Lifecycle
+    - [initialize()](api/initialize.md)
+  - Source Operations
+    - [sourceExists()](api/sourceExists.md)
+    - [sourceCreate()](api/sourceCreate.md)
+  - Record Operations
+    - [exists()](api/exists.md)
+    - [read()](api/read.md)
+    - [persistRecord()](api/persistRecord.md)
+    - [persistDelete()](api/persistDelete.md)
+  - Metadata
+    - [readRecordMetadata()](api/readRecordMetadata.md)
+    - [persistRecordMetadata()](api/persistRecordMetadata.md)
+  - Timestamps
+    - [stampRecordTimestamp()](api/stampRecordTimestamp.md)
+  - Deltas
+    - [readRecordDelta()](api/readRecordDelta.md)
+    - [persistRecordDelta()](api/persistRecordDelta.md)
+  - Key Enumeration
+    - [readRecordKeys()](api/readRecordKeys.md)
+    - [readRecordKeysByTimestamp()](api/readRecordKeysByTimestamp.md)
+
+- **Ecosystem**
+  - [Bibliograph](https://github.com/stevenvelozo/bibliograph)
+  - [Meadow](https://github.com/stevenvelozo/meadow)
+  - [Fable](https://github.com/stevenvelozo/fable)
+  - [Pict](https://github.com/stevenvelozo/pict)

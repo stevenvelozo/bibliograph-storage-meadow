@@ -1,0 +1,69 @@
+{
+	"Generated": "2026-03-02T01:24:12.335Z",
+	"GitHubOrg": "stevenvelozo",
+	"DefaultBranch": "master",
+	"Groups": [
+		{
+			"Name": "Dist",
+			"Key": "dist",
+			"Description": "",
+			"Modules": [
+				{
+					"Name": "indoctrinate_content_staging",
+					"Repo": "indoctrinate_content_staging",
+					"Group": "dist",
+					"Branch": "master",
+					"HasDocs": false,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": []
+				}
+			]
+		},
+		{
+			"Name": "Docs",
+			"Key": "docs",
+			"Description": "",
+			"Modules": [
+				{
+					"Name": "api",
+					"Repo": "api",
+					"Group": "docs",
+					"Branch": "master",
+					"HasDocs": true,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": [
+						"api/exists.md",
+						"api/initialize.md",
+						"api/persistDelete.md",
+						"api/persistRecord.md",
+						"api/persistRecordDelta.md",
+						"api/persistRecordMetadata.md",
+						"api/read.md",
+						"api/readRecordDelta.md",
+						"api/readRecordKeys.md",
+						"api/readRecordKeysByTimestamp.md",
+						"api/readRecordMetadata.md",
+						"api/reference.md",
+						"api/sourceCreate.md",
+						"api/sourceExists.md",
+						"api/stampRecordTimestamp.md"
+					]
+				},
+				{
+					"Name": "css",
+					"Repo": "css",
+					"Group": "docs",
+					"Branch": "master",
+					"HasDocs": true,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": [
+						"css/docuserve.css"
+					]
+				}
+			]
+		}
+	]
+}
