@@ -20,7 +20,7 @@
 	},
 	"homepage": "https://github.com/stevenvelozo/bibliograph-storage-meadow#readme",
 	"devDependencies": {
-		"quackage": "^1.0.59"
+		"quackage": "^1.1.0"
 	},
 	"mocha": {
 		"diff": true,
