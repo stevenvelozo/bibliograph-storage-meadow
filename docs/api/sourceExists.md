@@ -54,8 +54,8 @@ tmpStorage.sourceExists('my-data-feed',
 ## Typical Workflow
 
 ```
-sourceExists(hash) → true?  → proceed with record operations
-                   → false? → sourceCreate(hash) → proceed
+sourceExists(hash) -> true?  -> proceed with record operations
+                   -> false? -> sourceCreate(hash) -> proceed
 ```
 
 ## Notes

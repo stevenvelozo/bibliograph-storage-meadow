@@ -68,11 +68,11 @@ tmpStorage.read('my-data-feed', 'article-001',
 
 ```
 persistDelete(hash, guid, cb)
-  → _findRecord(hash, guid)
-    → row found?
-       YES → meadowRecord.doDelete({ IDBibliographRecord })
-             → Sets Deleted = 1, DeleteDate, DeletingIDUser
-       NO  → log warning, callback with no error
+  -> _findRecord(hash, guid)
+    -> row found?
+       YES -> meadowRecord.doDelete({ IDBibliographRecord })
+             -> Sets Deleted = 1, DeleteDate, DeletingIDUser
+       NO  -> log warning, callback with no error
 ```
 
 ## Notes

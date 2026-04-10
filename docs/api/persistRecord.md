@@ -73,10 +73,10 @@ tmpStorage.read('my-data-feed', 'article-001',
 
 ```
 persistRecord(hash, guid, json, cb)
-  → _findRecord(hash, guid)
-    → row exists?
-       YES → meadowRecord.doUpdate({ IDBibliographRecord, RecordData: json })
-       NO  → meadowRecord.doCreate({ SourceHash, RecordGUID, RecordData, RecordTimestamp })
+  -> _findRecord(hash, guid)
+    -> row exists?
+       YES -> meadowRecord.doUpdate({ IDBibliographRecord, RecordData: json })
+       NO  -> meadowRecord.doCreate({ SourceHash, RecordGUID, RecordData, RecordTimestamp })
 ```
 
 ## Notes

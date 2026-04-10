@@ -72,12 +72,12 @@ The method validates the parsed delta container by checking for the presence of 
 
 ```
 readRecordDelta(hash, guid, cb)
-  → _findDelta(hash, guid)
-    → row found?
-       YES → JSON.parse(DeltaJSON)
-             → has RecordGUID + Deltas? → cb(null, parsedContainer)
-             → invalid structure?       → cb(null, generateDeltaContainer(guid))
-       NO  → cb(null, generateDeltaContainer(guid))
+  -> _findDelta(hash, guid)
+    -> row found?
+       YES -> JSON.parse(DeltaJSON)
+             -> has RecordGUID + Deltas? -> cb(null, parsedContainer)
+             -> invalid structure?       -> cb(null, generateDeltaContainer(guid))
+       NO  -> cb(null, generateDeltaContainer(guid))
 ```
 
 ## Notes

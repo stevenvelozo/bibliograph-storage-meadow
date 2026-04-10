@@ -80,10 +80,10 @@ tmpStorage.persistRecord('my-source', 'rec-001',
 
 ```
 read(hash, guid, cb)
-  → _findRecord(hash, guid)
-    → meadowRecord.doReads() with SourceHash + RecordGUID filters
-      → row found? → JSON.parse(row.RecordData) → cb(null, parsedObject)
-      → no row?    → cb(undefined)
+  -> _findRecord(hash, guid)
+    -> meadowRecord.doReads() with SourceHash + RecordGUID filters
+      -> row found? -> JSON.parse(row.RecordData) -> cb(null, parsedObject)
+      -> no row?    -> cb(undefined)
 ```
 
 ## Notes
