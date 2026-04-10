@@ -1,7 +1,5 @@
 # bibliograph-storage-meadow
 
-<small>v0.0.1</small>
-
 > Meadow DAL-backed storage provider for Bibliograph
 
 - **Multi-Backend Persistence** -- SQLite, PostgreSQL, MySQL, MSSQL, and more

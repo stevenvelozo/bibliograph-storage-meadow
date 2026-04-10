@@ -1,0 +1,7 @@
+{
+	"Name": "bibliograph-storage-meadow",
+	"Version": "0.0.2",
+	"Description": "Bibliograph storage provider backed by Meadow DAL. Supports SQLite, PostgreSQL, MySQL, MSSQL, and other Meadow providers.",
+	"GeneratedAt": "2026-04-10T01:49:43.843Z",
+	"GitCommit": "5f66071"
+}
