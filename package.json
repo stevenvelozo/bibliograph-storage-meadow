@@ -21,7 +21,7 @@
 	"homepage": "https://github.com/stevenvelozo/bibliograph-storage-meadow#readme",
 	"devDependencies": {
 		"pict-docuserve": "^0.1.5",
-		"quackage": "^1.1.0"
+		"quackage": "^1.1.2"
 	},
 	"mocha": {
 		"diff": true,
@@ -42,9 +42,9 @@
 		]
 	},
 	"dependencies": {
-		"bibliograph": "^0.1.4",
-		"meadow": "^2.0.23",
-		"meadow-connection-sqlite": "^1.0.15",
-		"pict": "^1.0.356"
+		"bibliograph": "^0.1.6",
+		"meadow": "^2.0.37",
+		"meadow-connection-sqlite": "^1.0.19",
+		"pict": "^1.0.365"
 	}
 }
